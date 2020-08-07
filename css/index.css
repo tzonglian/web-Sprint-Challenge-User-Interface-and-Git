@@ -17,8 +17,9 @@ figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
-	padding: 0;
-	border: 0;
+    padding: 0;
+    /*border: 1px solid black; COMMENT OUT BEFORE SUBMIT*/
+	border: 0;  /*UNCOMMENT BEFORE SUBMIT */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -66,6 +67,43 @@ p {
     line-height: 1.4;
 }
 
+/* Individual Section Styling */
+
+/* Header */
+.nav-bar{
+    display:flex;
+    width: 800px; /*Same as .container */
+    margin: 5% auto 0 auto;
+}
+
+.nav-links{
+    display:flex;
+    width:100%;
+    justify-content: space-around;
+    align-items: flex-end;
+
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+
+#hero-image {
+    display:flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+#hero-image2 {
+    display:flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+/* Index Page - Main Content */
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -112,6 +150,18 @@ p {
     justify-content: center;
 }
 
+/* Coloring the boxes. */
+.middle-content .boxes .teal{background: teal;}
+.middle-content .boxes .gold{background: gold;}
+.middle-content .boxes .cadetblue{background: cadetblue;}
+.middle-content .boxes .coral{background: coral;}
+.middle-content .boxes .crimson{background: crimson;}
+.middle-content .boxes .forestgreen{background: forestgreen;}
+.middle-content .boxes .darkorchid{background: darkorchid;}
+.middle-content .boxes .hotpink{background: hotpink;}
+.middle-content .boxes .indigo{background: indigo;}
+.middle-content .boxes .dodgerblue{background: dodgerblue;}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +175,71 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* END Index Page - Main Content */
+
+/* About Page - Main Content */
+
+.about-top-content{
+    padding-bottom: 3%;
+    border-bottom: 1px dashed black;
+}
+
+.about-top-text{
+    margin: 0 6%;
+}
+
+.middle-content{
+    margin: 3%;
+    display:flex;
+    flex-direction:column;
+}
+
+.about-page .middle-content {
+    border: none;
+}
+
+.middle-content img{
+    max-width:100%;
+    padding: 3% 0;
+}
+
+.about-subrow{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.middle-content h3{
+    line-height:2;
+}
+
+.reason-box {
+    display:flex;
+    flex-direction:column;
+    margin: 2%;
+    border-bottom: 1px dashed black;
+}
+
+/* Styling the "Learn More" buttons */
+.reason-box a{
+    text-decoration:none;
+    color: black;
+    margin: 6% 0 2% 0;
+    border: 2px solid black;
+    border-radius: 5px;
+    max-width: 40%;
+    padding: 3% 0%;
+    text-align:center;
+}
+
+.about-bottom-content{
+    margin: 5% 6%;
+}
+
+/* END About Page - Main Content */
+
+
+/* Footer Content */
 
 footer {
     width: 100%;
@@ -144,3 +259,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
