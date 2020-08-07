@@ -17,8 +17,9 @@ figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
-	padding: 0;
-	border: 0;
+    padding: 0;
+    /* border: 1px solid black; *COMMENT OUT BEFORE SUBMIT*/
+	border: 0;  /*UNCOMMENT BEFORE SUBMIT*/
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -65,6 +66,37 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+
+/* Individual Section Styling */
+
+/* Header */
+.nav-bar{
+    display:flex;
+    width: 800px; /*Same as .container */
+    margin: 5% auto 0 auto;
+}
+
+.nav-links{
+    display:flex;
+    width:100%;
+    justify-content: space-around;
+    align-items: flex-end;
+
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+
+#hero-image {
+    display:flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+/* Main Content */
 
 .container {
     width: 800px;
@@ -125,6 +157,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* Footer Content */
 
 footer {
     width: 100%;
