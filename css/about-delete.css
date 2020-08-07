@@ -18,8 +18,8 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
     padding: 0;
-    /*border: 1px solid black; COMMENT OUT BEFORE SUBMIT*/
-	border: 0;  /*UNCOMMENT BEFORE SUBMIT */
+    border: 1px solid black; /*COMMENT OUT BEFORE SUBMIT*/
+	/* border: 0;  UNCOMMENT BEFORE SUBMIT*/
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -90,19 +90,13 @@ header nav a {
 }
 
 
-#hero-image {
-    display:flex;
-    justify-content: center;
-    margin: 5%;
-}
-
 #hero-image2 {
     display:flex;
     justify-content: center;
     margin: 5%;
 }
 
-/* Index Page - Main Content */
+/* Main Content */
 
 .container {
     width: 800px;
@@ -176,36 +170,6 @@ header nav a {
     padding-right: 0;
 }
 
-/* END Index Page - Main Content */
-
-/* About Page - Main Content */
-
-.about-top-content{
-    margin: 0 6% 5% 6%;
-    border-bottom: 1px dashed black;
-}
-
-.row1{
-    display:flex;
-    justify-content: space-evenly;
-}
-
-.row2{
-    display:flex;
-}
-
-.reason-box{
-    display:flex;
-    flex-direction:column;
-}
-
-
-.about-bottom-content{
-    margin: 5% 6%;
-}
-
-/* END About Page - Main Content */
-
 /* Footer Content */
 
 footer {
@@ -226,4 +190,3 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-
