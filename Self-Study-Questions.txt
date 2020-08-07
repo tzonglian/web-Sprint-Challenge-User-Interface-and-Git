@@ -1,0 +1,18 @@
+Sprint 1 - Self-Study Questions
+Tzong-lian Tsay
+
+If you were to describe semantic HTML to the next cohort of students, what would you say?
+	Semantic HTML is the bare bones of the webpage  - it contains all the content (text, images, etc.), as well as labels (tags) marking groups of texts/images.  These tags identify how all the text and images are to be styled (positioning, size, fonts) on a webpage.
+
+Name two big differences between display: block; and display: inline;.
+	Display: block; starts the element on a new line, and takes up its container’s width (but you can change the height/width values).
+Display: inline; starts the element on the same line, and ignores any height/width properties.
+
+What are the 4 areas of the box model?
+	Margin, Border, Padding, Content
+
+While using flexbox, what axis does the following property work on: align-items: center?
+    	It positions the items centered on the cross-axis.
+
+Explain why git is valuable to a team of developers.
+	Git is a distributed version control system used to monitor and control code changes made during development across several people or teams.  You can have developers comment on your code, check other developer’s code, roll back changes, work on new code dependent on existing code (forking to a new branch).  It keeps everyone’s versions of code neat and tidy.
